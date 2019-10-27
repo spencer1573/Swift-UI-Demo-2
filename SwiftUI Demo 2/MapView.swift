@@ -7,11 +7,19 @@
 //
 
 import SwiftUI
+import MapKit
 
-struct MapView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+struct MapView : UIViewRepresentable {
+    
+    func makeUIView(context: UIViewRepresentableContext<MapView>) -> MKMapView {
+        MKMapView()
     }
+    
+    func updateUIView(_ uiView: MapView.UIViewType, context: UIViewRepresentableContext<MapView>) {
+        
+        
+    }
+    
 }
 
 struct MapView_Previews: PreviewProvider {

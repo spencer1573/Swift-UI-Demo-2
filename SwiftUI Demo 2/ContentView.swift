@@ -15,7 +15,7 @@ struct ContentView: View {
             MapView()
             
             VStack(alignment: .leading) {
-                Text("Hello Worlds")
+                Text("Turtle Rock")
                     .font(.title)
                 HStack {
                     Text("Joshua Tree National Park")
